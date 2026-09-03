@@ -45,14 +45,14 @@ export default function Footer() {
   const tiktokHref = settings.socialLinks?.tiktok;
 
   const quickLinks = [
-    { to: "/", label: "Home" },
-    { to: "/#giveaway", label: "Giveaway" },
-    { to: "/#bike", label: "The Bike" },
-    { to: "/#how-it-works", label: "How It Works" },
-    { to: "/#winners", label: "Winners" },
-    { to: "/#community", label: "Community" },
-    { to: "/#faq", label: "FAQ" },
-    { to: "/contact", label: "Contact" },
+    { to: "/", label: "Home", hash: false },
+    { to: "/#giveaway", label: "Giveaway", hash: true },
+    { to: "/#bike", label: "The Bike", hash: true },
+    { to: "/#how-it-works", label: "How It Works", hash: true },
+    { to: "/#winners", label: "Winners", hash: true },
+    { to: "/#community", label: "Community", hash: true },
+    { to: "/#faq", label: "FAQ", hash: true },
+    { to: "/contact", label: "Contact", hash: false },
   ];
 
   const legalLinks = [
@@ -128,16 +128,29 @@ export default function Footer() {
             <ul className="space-y-2.5">
               {quickLinks.map((link) => (
                 <li key={link.to}>
-                  <Link
-                    to={link.to}
-                    className="text-sm text-white/60 hover:text-[#F97316] transition-colors duration-150 flex items-center gap-1.5 group"
-                  >
-                    <ChevronRight
-                      className="w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity"
-                      aria-hidden="true"
-                    />
-                    {link.label}
-                  </Link>
+                  {link.hash ? (
+                    <a
+                      href={link.to}
+                      className="text-sm text-white/60 hover:text-[#F97316] transition-colors duration-150 flex items-center gap-1.5 group"
+                    >
+                      <ChevronRight
+                        className="w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity"
+                        aria-hidden="true"
+                      />
+                      {link.label}
+                    </a>
+                  ) : (
+                    <Link
+                      to={link.to}
+                      className="text-sm text-white/60 hover:text-[#F97316] transition-colors duration-150 flex items-center gap-1.5 group"
+                    >
+                      <ChevronRight
+                        className="w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity"
+                        aria-hidden="true"
+                      />
+                      {link.label}
+                    </Link>
+                  )}
                 </li>
               ))}
             </ul>
