@@ -54,11 +54,11 @@ export default function HowItWorks() {
         </div>
 
         {/* Steps */}
-        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-x-6 gap-y-10 mb-12 mt-6">
           {steps.map((step, i) => (
-            <div key={i} className="relative card p-6 text-center group hover:shadow-md transition-shadow duration-200">
+            <div key={i} className="relative bg-white rounded-2xl shadow-sm border border-slate-100 pt-10 pb-6 px-6 text-center group hover:shadow-md transition-shadow duration-200">
               {/* Step number badge */}
-              <div className="absolute -top-4 left-1/2 -translate-x-1/2 w-8 h-8 rounded-full bg-[#F97316] text-white text-sm font-bold flex items-center justify-center shadow-md">
+              <div className="absolute -top-4 left-1/2 -translate-x-1/2 w-9 h-9 rounded-full bg-[#F97316] text-white text-sm font-bold flex items-center justify-center shadow-lg ring-4 ring-[#F8FAFC] z-10">
                 {i + 1}
               </div>
 
@@ -68,7 +68,7 @@ export default function HowItWorks() {
               )}
 
               <div
-                className={`w-16 h-16 mx-auto mt-4 mb-5 rounded-2xl ${step.color} text-white flex items-center justify-center group-hover:scale-105 transition-transform duration-200`}
+                className={`w-16 h-16 mx-auto mb-5 rounded-2xl ${step.color} text-white flex items-center justify-center group-hover:scale-105 transition-transform duration-200`}
               >
                 <step.Icon className="w-7 h-7" aria-hidden="true" />
               </div>
