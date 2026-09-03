@@ -16,7 +16,7 @@ const DEFAULT_REVIEWS: (Omit<Review, "createdAt" | "isApproved" | "userId"> & { 
   {
     id: "default-2",
     userName: "Priya N.",
-    userAvatar: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop&crop=face",
+    userAvatar: "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?w=100&h=100&fit=crop",
     rating: 4,
     year: "2023 Winner",
     comment:
@@ -34,7 +34,7 @@ const DEFAULT_REVIEWS: (Omit<Review, "createdAt" | "isApproved" | "userId"> & { 
   {
     id: "default-4",
     userName: "Aisha B.",
-    userAvatar: "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=100&h=100&fit=crop&crop=face",
+    userAvatar: "https://images.unsplash.com/photo-1571188654248-7a89213915f7?w=100&h=100&fit=crop",
     rating: 4,
     year: "2022 Winner",
     comment:
@@ -52,7 +52,7 @@ const DEFAULT_REVIEWS: (Omit<Review, "createdAt" | "isApproved" | "userId"> & { 
   {
     id: "default-6",
     userName: "Sophia R.",
-    userAvatar: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop&crop=face",
+    userAvatar: "https://images.unsplash.com/photo-1485965120184-e220f721d03e?w=100&h=100&fit=crop",
     rating: 5,
     year: "2023 Winner",
     comment:
