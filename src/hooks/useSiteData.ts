@@ -26,7 +26,7 @@ const DEFAULT_SETTINGS: SiteSettings = {
   siteName: "SURRONSTER GIVEAWAY COMMUNITY 2026",
   tagline: "Your Next Ride Could Be Electric.",
   contactEmail: "contact@surronstergiveaway.com",
-  whatsappNumber: "+1234567890",
+  whatsappNumber: "+12174973213",
   whatsappMessage: "Hi! I want to enter the 2026 Surronster Giveaway.",
   socialLinks: {
     facebook: "https://facebook.com",
