@@ -7,7 +7,7 @@ const defaultFaqs = [
     id: "d1",
     question: "Who can enter?",
     answer:
-      "Eligibility is defined in the official rules — typically adults aged 18 or over who are residents in eligible countries. Geographic restrictions and other conditions apply. See the Giveaway Rules page for full details.",
+      "Eligibility is defined in the official rules — open to residents aged 16 and over in eligible countries. Geographic restrictions and other conditions apply. See the Giveaway Rules page for full details.",
     order: 1,
   },
   {

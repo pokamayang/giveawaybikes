@@ -16,7 +16,7 @@ Always read the official giveaway rules for eligibility, geographic restrictions
   rules: `OFFICIAL GIVEAWAY RULES (SUMMARY)
 
 1. Sponsor / Operator: As stated on the giveaway page (Surronster Giveaway Community or named operator).
-2. Eligibility: Age and residency requirements apply. Void where prohibited. See full rules for geographic restrictions.
+2. Eligibility: Open to residents aged 16 and over. Residency requirements apply. Void where prohibited. See full rules for geographic restrictions.
 3. No Purchase Necessary: Where required by law, no purchase is necessary to enter or win.
 4. How to Enter: Follow the methods described on the site and in the full rules. Entry limits apply.
 5. Winner Selection: As stated (typically random drawing among eligible entries).

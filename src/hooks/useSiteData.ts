@@ -58,7 +58,7 @@ const DEFAULT_GIVEAWAY: Giveaway = {
   ],
   closingDate: "2026-12-31T23:59:59",
   announcementDate: "2027-01-15",
-  eligibility: "Open to residents 18+ in eligible countries. See official rules for full eligibility, geographic restrictions, and no-purchase-necessary details.",
+  eligibility: "Open to residents aged 16 and over in eligible countries. See official rules for full eligibility, geographic restrictions, and no-purchase-necessary details.",
   howToEnter: [
     "Register / join the community",
     "Complete the eligible entry method described in the rules",
